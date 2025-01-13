@@ -38,6 +38,3 @@ Instalasi:
 
 Kontribusi:
 Jika Anda tertarik untuk berkontribusi, silakan fork repository ini dan buat pull request dengan perubahan Anda. Pastikan untuk mengikuti pedoman kontribusi dan menulis deskripsi perubahan yang jelas.
-
-Lisensi:
-Proyek ini dilisensikan di bawah MIT License.
