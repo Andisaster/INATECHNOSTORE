@@ -1,40 +1,40 @@
-INASTORE: Web Penjualan Buku dengan Laravel
+INASTORE: Book Sales Website with Laravel
 
-INASTORE adalah platform e-commerce berbasis web untuk penjualan buku online yang dibangun dengan Laravel. Dengan INASTORE, pengguna dapat dengan mudah membeli buku, dan admin dapat mengelola koleksi buku, transaksi, serta pengguna.
+INASTORE is a web-based e-commerce platform for online book sales built with Laravel. With INASTORE, users can easily buy books, and admins can manage book collections, transactions, and users.
 
-Fitur Utama:
-- Pengelolaan Buku: Menambah, mengedit, dan menghapus buku dengan detail seperti judul, penulis, harga, dan stok.
-- Sistem Pembayaran: Pengguna dapat melakukan pembelian buku dengan berbagai metode pembayaran.
-- Autentikasi Pengguna: Login dan registrasi pengguna dengan sistem Laravel Auth yang aman.
-- Membaca Buku : Pengguna bisa membaca yang sudah di beli di halaman buku saya.
+Key Features:
+- Book Management: Add, edit, and delete books with details such as title, author, price, and stock.
+- Payment System: Users can purchase books with various payment methods.
+- User Authentication: Login and register users with the secure Laravel Auth system.
+- Reading Books: Users can read what they have purchased on my book page.
 
-Teknologi yang Digunakan:
+Technologies Used:
 - Backend: Laravel (PHP Framework)
 - Frontend: Blade Templating, Bootstrap (CSS Framework)
 - Database: MySQL
 
-Instalasi:
+Installation:
 1. Clone Repository:
-   git clone https://github.com/Andisaster/INATECHNOSTORE.git
+git clone https://github.com/Andisaster/INATECHNOSTORE.git
 
-2. Install Dependensi:
-   Pindah ke direktori proyek dan install dependensi menggunakan Composer:
-   cd inastore
-   composer install
+2. Install Dependencies:
+Move to the project directory and install dependencies using Composer:
+cd inastore
+composer install
 
-3. Konfigurasi Lingkungan:
-   Salin file .env.example menjadi .env dan sesuaikan konfigurasi basis data:
-   cp .env.example .env
-   php artisan key:generate
+3. Environment Configuration:
+Copy the .env.example file to .env and adjust the database configuration:
+cp .env.example .env
+php artisan key:generate
 
-4. Migrasi Database:
-   Jalankan migrasi untuk membuat tabel-tabel di database:
-   php artisan migrate
+4. Database Migration:
+Run migrations to create tables in the database:
+php artisan migrate
 
-5. Jalankan Aplikasi:
-   Jalankan aplikasi menggunakan Artisan server:
-   php artisan serve
-   Akses aplikasi di http://localhost:8000
+5. Run the Application:
+Run the application using Artisan server:
+php artisan serve
+Access the application at http://localhost:8000
 
-Kontribusi:
-Jika Anda tertarik untuk berkontribusi, silakan fork repository ini dan buat pull request dengan perubahan Anda. Pastikan untuk mengikuti pedoman kontribusi dan menulis deskripsi perubahan yang jelas.
+Contribution:
+If you are interested in contributing, please fork the repository this and create a pull request with your changes. Be sure to follow the contribution guidelines and write a clear description of the changes.
